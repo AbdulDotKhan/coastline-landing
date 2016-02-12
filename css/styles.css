@@ -775,7 +775,7 @@ Sign up form
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
     margin-left: 20px; }
-    .sign-up .signup-form .form-input-group i.fa-group, i.fa-linkedin {
+    .sign-up .signup-form .form-input-group i.fa-group {
       font-size: 18px;
       position: absolute;
       top: 50%;
@@ -783,6 +783,15 @@ Sign up form
           -ms-transform: translateY(-50%);
               transform: translateY(-50%);
       margin-left: 20px; }
+
+      .sign-up .signup-form .form-input-group i.fa-linkedin {
+        font-size: 18px;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+        margin-left: 20px; }
 
   .sign-up .signup-form .form-input-group i.fa-envelope {
     font-size: 14px;
