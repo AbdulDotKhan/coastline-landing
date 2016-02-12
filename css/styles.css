@@ -23,7 +23,8 @@ h3 {
   color: #3D4351; }
 
 h4 {
-  font-size: 18px; }
+  font-size: 18px;
+   color: #3D4351; }
 
 h5 {
   font-size: 15px;
@@ -46,8 +47,8 @@ a.btn {
 }
 .btn:hover, .btn:focus {
   color: #fff;
-  border-color: #2196F3;
-  background-color: #2196F3; }
+  border-color: #00BCD4;
+  background-color: #00BCD4; }
 
 .btn-white {
   font-size: 13px;
@@ -57,8 +58,8 @@ a.btn {
   border-color: #fff; }
 
 .btn-white:hover, .btn-white:focus {
-  color: #2196F3;
-  border-color: #2196F3;
+  color: #00BCD4;
+  border-color: #00BCD4;
  }
 
 a.btn-small.btn-white {
@@ -66,7 +67,7 @@ a.btn-small.btn-white {
 }
 
 a.btn-small.btn-white:hover {
-  color: #2196F3;
+  color: #00BCD4;
 }
 
 .btn-fill {
@@ -112,6 +113,36 @@ section.features-extra {
 section.features, section.blog-intro, section.blog {
   background: #F3F4F8; }
 
+section.investor {
+  background-color: #B0BEC5;
+}
+h1.investor {
+  color: #3D4351;
+  letter-spacing: 1px;
+}
+img.screenshot {
+  border-radius: 5px;
+  width: 360px;
+  height: 220px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+}
+
+img.modalImg {
+  border-radius: 5px;
+  max-width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+}
+div.modal-content {
+  overflow-x: hidden;
+}
+
+section.careers {
+  background-color: #00ACC1;
+}
 
 /* ==========================================================================
 Global Styles
@@ -128,7 +159,7 @@ Global Styles
   margin: 0; }
 
 a {
-  color: #2196F3;
+  color: #00BCD4;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
   -webkit-transition-duration: 200ms;
@@ -137,13 +168,13 @@ a {
   transition-property: color, border-color, background-color; }
 
 a:hover, a:focus {
-  color: #2196F3;
+  color: #00BCD4;
   text-decoration: none; }
 
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  color: #2196F3;
+  color: #00BCD4;
   -webkit-text-size-adjust: 100%; }
 
 ul, ol {
@@ -439,7 +470,7 @@ header {
        letter-spacing: 1px;
      }
         header ul.primary-nav li a:hover {
-          color: #2196F3; }
+          color: #00BCD4; }
       header ul.primary-nav li:last-child a {
         padding-right: 0px; }
   header ul.member-actions li {
@@ -447,7 +478,7 @@ header {
     header ul.member-actions li a {
       color: #fff; }
       header ul.member-actions li a:hover {
-        color: #2196F3; }
+        color: #00BCD4; }
   header .header-nav {
     display: inline-block; }
   header .member-actions {
@@ -473,7 +504,7 @@ Intro
 ========================================================================== */
 .intro span.icon {
   font-size: 40px;
-  color: #2196F3;
+  color: #00BCD4;
   font-weight: bold; }
 
 .intro-icon {
@@ -744,7 +775,7 @@ Sign up form
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
     margin-left: 20px; }
-    .sign-up .signup-form .form-input-group i.fa-group {
+    .sign-up .signup-form .form-input-group i.fa-group, i.fa-linkedin {
       font-size: 18px;
       position: absolute;
       top: 50%;
@@ -752,6 +783,7 @@ Sign up form
           -ms-transform: translateY(-50%);
               transform: translateY(-50%);
       margin-left: 20px; }
+
   .sign-up .signup-form .form-input-group i.fa-envelope {
     font-size: 14px;
     position: absolute;
