@@ -58,27 +58,27 @@ a.btn {
   border-color: #fff;
 }
 .btn-white:hover, .btn-white:focus {
-  color: #00BCD4;
-  border-color: #00BCD4;
+  color: #F44336;
+  border-color: #F44336;
 }
 a.btn-small.btn-white {
   color: #fff;
 }
 a.btn-small.btn-white:hover {
-  color: #00BCD4;
+  color: #F44336;
 }
 .btn-fill {
   color: #fff;
-  border: solid 2px #00BCD4;
+  border: solid #75858C;
   border-radius: 5px;
   display: inline-block;
   text-transform: uppercase;
-  background-color: #00BCD4;
+  background-color: #75858C;
 }
 .btn-fill:hover, .btn-fill:focus {
   color: #fff;
-  background-color: #00838F;
-  border-color: #00838F;
+  background-color: #53595E;
+  border-color: #53595E;
 }
 .btn-small {
   padding: 8px 20px;
@@ -366,7 +366,7 @@ Navigation
   transition: opacity 0.5s;
 }
 section.navigation.fixed {
-  background-color: #607D8B;
+  background-color: #53595E;
 }
 .nav-toggle {
   position: absolute;
