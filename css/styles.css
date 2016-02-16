@@ -71,16 +71,16 @@ a.btn-small.btn-white:hover {
 
 .btn-fill {
   color: #fff;
-  border: solid 2px #00BCD4;
+  border: solid 2px #75858C;
   border-radius: 5px;
   display: inline-block;
   text-transform: uppercase;
-  background-color: #00BCD4; }
+  background-color: #75858C; }
 
 .btn-fill:hover, .btn-fill:focus {
   color: #fff;
-  background-color: #00838F;
-  border-color: #00838F; }
+  background-color: #53595E;
+  border-color: #53595E; }
 
 
 .btn-small {
@@ -317,7 +317,7 @@ Navigation
   transition: opacity 0.5s; }
 
 section.navigation.fixed {
-  background-color: #607D8B;
+  background-color: #53595E;
 }
 
 .nav-toggle {
@@ -382,7 +382,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url("../img/fishnet.jpg") center center;
+  background: url("../img/background2.jpg") center center;
   background-size: cover;
   position: relative; }
 
@@ -723,7 +723,7 @@ Sign up form
   text-align: left;
   position: relative; }
   .sign-up .signup-form .form-input-group i {
-    color: #00BCD4;
+    color: #2196F3;
     font-size: 14px; }
   .sign-up .signup-form .form-input-group i:after {
     content: "";
