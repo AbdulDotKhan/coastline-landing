@@ -1,4 +1,28 @@
+
+
+
 $(document).ready(function() {
+
+	// jQuery for page scrolling feature - requires jQuery Easing plugin
+	$(function() {
+	    $('a.smooth-scroll').bind('click', function(event) {
+	        var $anchor = $(this);
+	        $('html, body').stop().animate({
+	            scrollTop: $($anchor.attr('href')).offset().top
+	        }, 1500, 'easeInOutExpo');
+	        event.preventDefault();
+	    });
+	});
+
+	// // Highlight the top nav as scrolling occurs
+	// $('body').scrollspy({
+	//     target: '.navbar-fixed-top'
+	// })
+	//
+	// // Closes the Responsive Menu on Menu Item Click
+	// $('.navbar-collapse ul li a').click(function() {
+	//     $('.navbar-toggle:visible').click();
+	// });
 
 	/***************** Waypoints ******************/
 
@@ -53,7 +77,7 @@ $(document).ready(function() {
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
 
-			if (scroll >= 20) {
+			if (scroll >= 300) {
 				$('section.navigation').addClass('fixed');
 				$('header').css({
 					"border-bottom": "none",
@@ -82,22 +106,22 @@ $(document).ready(function() {
 	});
 	/***************** Smooth Scrolling ******************/
 
-	$(function() {
-
-		$('a[href*=#]:not([href=#])').click(function() {
-			if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-
-				var target = $(this.hash);
-				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-				if (target.length) {
-					$('html,body').animate({
-						scrollTop: target.offset().top
-					}, 2000);
-					return false;
-				}
-			}
-		});
-
-	});
+	// $(function() {
+	//
+	// 	$('a[href*=#]:not([href=#])').click(function() {
+	// 		if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+	//
+	// 			var target = $(this.hash);
+	// 			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+	// 			if (target.length) {
+	// 				$('html,body').animate({
+	// 					scrollTop: target.offset().top
+	// 				}, 2000);
+	// 				return false;
+	// 			}
+	// 		}
+	// 	});
+	//
+	// });
 
 });

@@ -1,5 +1,110 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,100,300,300italic,400italic,700);
 
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.element {
+  display: inline-block;
+}
+
+/* Other temploate */
+
+.navbar-default {
+  background-color: #ggg;
+  border-color: transparent;
+}
+.navbar-default .navbar-brand {
+  color: #000;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
+  color: #fec503
+}
+.navbar-default .navbar-collapse {
+  border-color: rgba(255, 255, 255, .02)
+}
+.navbar-default .navbar-toggle {
+  background-color: #fed136;
+  border-color: #fed136
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #fed136
+}
+.navbar-default .nav li a {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #000
+}
+.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+  color: #fed136;
+  outline: 0
+}
+.navbar-default .navbar-nav>.active>a {
+  border-radius: 0;
+  color: #fff;
+  background-color: #fed136
+}
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #fff;
+  background-color: #fec503
+}
+@media (min-width:768px) {
+  .navbar-default {
+    /*background-color: transparent;*/
+    padding: 10px 0;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+    border: 0
+  }
+  .navbar-default .navbar-brand {
+    /*font-size: 2em;*/
+    padding-top: 0.45em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s
+  }
+  .navbar-default .navbar-nav>.active>a {
+    border-radius: 3px
+  }
+  .navbar-default.navbar-shrink {
+    background-color: #222;
+    padding: 10px 0
+  }
+  .navbar-default.navbar-shrink .navbar-brand {
+    font-size: 1.5em
+  }
+}
+
+
+
+
 /* ==========================================================================
 Typography
 ========================================================================== */
@@ -13,6 +118,11 @@ p {
 h1 {
   font-size: 60px;
 }
+
+.typed {
+  font-size: 50px;
+}
+
 h2 {
   font-size: 40px;
   font-weight: 300;
@@ -55,8 +165,18 @@ a.btn {
   border: solid 2px;
   border-radius: 5px;
   display: inline-block;
-  border-color: #fff;
+  border-color: #1070BA;
 }
+
+.btn-trans {
+  font-size: 13px;
+  border: solid 2px;
+  border-radius: 5px;
+  display: inline-block;
+  border-color: #F8F8F8;
+}
+
+
 .btn-white:hover, .btn-white:focus {
   color: #F44336;
   border-color: #F44336;
@@ -69,11 +189,11 @@ a.btn-small.btn-white:hover {
 }
 .btn-fill {
   color: #fff;
-  border: solid #75858C;
+  border: solid #3C90DF;
   border-radius: 5px;
   display: inline-block;
   text-transform: uppercase;
-  background-color: #75858C;
+  background-color: #3C90DF;
 }
 .btn-fill:hover, .btn-fill:focus {
   color: #fff;
@@ -358,7 +478,7 @@ Waypoinsts
 /* ==========================================================================
 Navigation
 ========================================================================== */
-
+/*
 .header-nav.open {
   visibility: visible;
   opacity: 0.9;
@@ -366,8 +486,14 @@ Navigation
   transition: opacity 0.5s;
 }
 section.navigation.fixed {
-  background-color: #53595E;
+  background-color: #fff;
+  opacity: 0.75;
 }
+
+section.navigation.fixed .opaque-container {
+  opacity: 1
+}
+
 .nav-toggle {
   position: absolute;
   top: 0;
@@ -424,7 +550,7 @@ section.navigation.fixed {
   visibility: hidden;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
-}
+}*/
 
 /* ==========================================================================
 Hero
@@ -432,7 +558,7 @@ Hero
 
 .hero {
   min-height: 750px;
-  background: url("../img/background.jpg") center center;
+  background: url("../img/background5.jpg") center center;
   background-size: cover;
   position: relative;
 }

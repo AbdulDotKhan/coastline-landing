@@ -36,11 +36,45 @@
 </head>
 
 <body id="top">
+
+  <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/coastline-logo-2.png" alt="coastline  logo">
+</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about" class="btn-trans btn-small">About</a></li>
+                    <li><a href="#features" class="btn-trans btn-small">Features</a></li>
+                    <li><a href="#beta" class="btn-trans btn-small">Beta</a></li>
+                    <li><a href="https://blog.coastlinemarket.com/" class="btn-trans btn-small">Blog</a></li>
+                    <li><a href="#beta" class="btn-trans btn-small">Contact</a></li>
+                    <li><a href="#beta" class="btn-white btn-small">BUY FRESH SEAFOOD</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
   <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
   <section class="hero">
-    <section class="navigation">
+    <!-- <section class="navigation">
+      <div class="opaque-container">
       <header>
         <div class="header-content">
           <div class="logo">
@@ -69,14 +103,16 @@
           </div>
         </div>
       </header>
-    </section>
+    </div>
+    </section> -->
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
           <div class="hero-content text-center">
-            <h1>Track, Monitor, Sell Direct</h1>
+            <h1 class="typed"><div class="element"></div>happens on Coastline.</h1>
             <p class="intro">Coastline is a mission critical integrated inventory management and ecommerce platform, designed exclusively for fishers.</p>
-            <a href="#about" class="btn btn-fill btn-large btn-margin-right">Learn More</a>
+
+            <a href="#about" class="btn btn-fill btn-large btn-margin-right smooth-scroll">Learn More</a>
             <a href="#beta" class="btn btn-fill btn-large btn-margin-right">Go to Store</a>
           </div>
         </div>
@@ -290,6 +326,20 @@
   <script src="js/jquery.flexslider-min.js"></script>
   <script src="bower_components/classie/classie.js"></script>
   <script src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
+  <script src="js/min/typed.min.js"></script>
+
+  <script>
+    $(function(){
+        $(".element").typed({
+          strings: ["Profitability ", "Empowering fishers ", "Inventory management ", "Local selling "],
+          typeSpeed: 0,
+          loop: true,
+          backDelay: 3000
+        });
+    });
+  </script>
+
+
 
   <script>
     (function(b, o, i, l, e, r) {
@@ -307,6 +357,8 @@
     ga('create', 'UA-65615820-1', 'auto');
     ga('send', 'pageview');
   </script>
+
+
 </body>
 
 </html>
