@@ -30,7 +30,7 @@
 /* Other temploate */
 
 .navbar-default {
-  background-color: #ggg;
+  background-color: #1565c0;
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
@@ -49,7 +49,7 @@
   border-color: #fed136
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff
+  background-color: #fff;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #fed136
@@ -59,7 +59,7 @@
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #000
+  color: #fff
 }
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
   color: #fed136;
@@ -165,7 +165,7 @@ a.btn {
   border: solid 2px;
   border-radius: 5px;
   display: inline-block;
-  border-color: #1070BA;
+  border-color: #fff;
 }
 
 .btn-trans {
@@ -173,7 +173,7 @@ a.btn {
   border: solid 2px;
   border-radius: 5px;
   display: inline-block;
-  border-color: #F8F8F8;
+  border-color: #1565c0;
 }
 
 
@@ -189,11 +189,11 @@ a.btn-small.btn-white:hover {
 }
 .btn-fill {
   color: #fff;
-  border: solid #3C90DF;
+  border: solid #1565c0;
   border-radius: 5px;
   display: inline-block;
   text-transform: uppercase;
-  background-color: #3C90DF;
+  background-color: #1565c0;
 }
 .btn-fill:hover, .btn-fill:focus {
   color: #fff;
@@ -558,7 +558,7 @@ Hero
 
 .hero {
   min-height: 750px;
-  background: url("../img/background5.jpg") center center;
+  background: url("../img/background.jpg") center center;
   background-size: cover;
   position: relative;
 }
