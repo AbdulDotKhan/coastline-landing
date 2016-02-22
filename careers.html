@@ -69,16 +69,21 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h3>Passionate about disruptive technology?</h3>
                     <p>We're always looking for bright talent. No cover letters required.</p>
-                    <form class="signup-form" action="#" method="POST" role="form">
+                    <form class="signup-form" action="//formspree.io/hello@coastlinemarket.com" method="POST" role="form">
                       <div class="form-input-group">
-                          <i class="fa fa-group"></i><input type="text" class="" placeholder="Your name" required>
+                          <i class="fa fa-group"></i><input type="text" class="" placeholder="Your name" name="_name" required>
                       </div>
                         <div class="form-input-group">
-                            <i class="fa fa-envelope"></i><input type="text" class="" placeholder="Enter your email" required>
+                            <i class="fa fa-envelope"></i><input type="text" class="" placeholder="Enter your email" name="_replyto" required>
                         </div>
                         <div class="form-input-group">
-                            <i class="fa fa-linkedin"></i><input type="text" class="" placeholder="Enter your linkedin URL" optional>
+                            <i class="fa fa-linkedin"></i><input type="text" class="" placeholder="Enter your linkedin URL" name="_linkedinURL" required>
                         </div>
+                        <!-- redirect to intermediate page -->
+                        <input type="hidden" name="_next" value="thankyou.html" />
+                        <!-- to avoid spam/scrapers -->
+                        <input type="text" name="_gotcha" style="display:none" />
+
 
                         <button type="submit" class="btn-fill sign-up-btn">Apply</button>
                     </form>

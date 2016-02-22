@@ -864,7 +864,7 @@ Sign up form
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.sign-up .signup-form .form-input-group i.fa-lock {
+.sign-up .signup-form .form-input-group i.fa-globe {
   font-size: 18px;
   position: absolute;
   top: 50%;

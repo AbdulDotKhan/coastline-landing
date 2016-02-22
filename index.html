@@ -225,26 +225,31 @@
         <div class="col-md-6 col-md-offset-3">
           <h3>Help shape the future of technology in fishing.</h3>
           <p>Request a free beta copy today</p>
-          <form class="signup-form" action="#" method="POST" role="form">
+          <form class="signup-form" action="//formspree.io/hello@coastlinemarket.com" method="POST" role="form">
             <div class="form-input-group">
               <i class="fa fa-group"></i>
-              <input type="text" class="" placeholder="Your name or company" required>
+              <input type="text" class="" placeholder="Your name or company" name="name" required>
             </div>
             <div class="form-input-group">
               <i class="fa fa-envelope"></i>
-              <input type="text" class="" placeholder="Enter your email" required>
+              <input type="text" class="" placeholder="Enter your email" name="_replyto" required>
             </div>
             <div class="form-input-group">
-              <i class="fa fa-lock"></i>
-              <input type="text" class="" placeholder="Enter your password" required>
+              <i class="fa fa-globe"></i>
+              <input type="text" class="" placeholder="Enter your location" name="_location" required>
             </div>
+            <!-- redirect to intermediate page -->
+            <input type="hidden" name="_next" value="thankyou.html" />
+            <!-- to avoid spam/scrapers -->
+            <input type="text" name="_gotcha" style="display:none" />
 
-            <button type="submit" class="btn-fill sign-up-btn">Sign up for free</button>
+            <button type="submit" class="btn-fill sign-up-btn" value="send">Sign up for free</button>
           </form>
         </div>
       </div>
     </div>
   </section>
+
   <section class="to-top">
     <div class="container">
       <div class="row">
