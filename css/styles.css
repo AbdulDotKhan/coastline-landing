@@ -1,9 +1,19 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,100,300,300italic,400italic,700);
 
 
+<<<<<<< HEAD
 /* ==========================================================================
 Type.js plugin
 ========================================================================== */
+=======
+.typed {
+  font-size: 50px;
+}
+.desktop-hidden {
+  display: none;
+}
+
+>>>>>>> 3f818b33b1b0b9b1e6aaec85da4346272c1ab5c9
 
 .typed-cursor{
     opacity: 1;
@@ -27,7 +37,13 @@ Type.js plugin
     100% { opacity:1; }
 }
 
+<<<<<<< HEAD
 
+=======
+.element {
+  display: inline-block;
+}
+>>>>>>> 3f818b33b1b0b9b1e6aaec85da4346272c1ab5c9
 /* ==========================================================================
 Typography
 ========================================================================== */
