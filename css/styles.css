@@ -1,15 +1,36 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,100,300,300italic,400italic,700);
+<<<<<<< HEAD
+=======
+
+
+<<<<<<< HEAD
+/* ==========================================================================
+Type.js plugin
+========================================================================== */
+=======
+>>>>>>> bd3d1914bdb155ee4d5c41eebdd5cf78ef4ff9b0
 .typed {
   font-size: 50px;
 }
 .desktop-hidden {
   display: none;
 }
+<<<<<<< HEAD
 .typed-cursor {
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
   -moz-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite;
+=======
+
+>>>>>>> 3f818b33b1b0b9b1e6aaec85da4346272c1ab5c9
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+>>>>>>> bd3d1914bdb155ee4d5c41eebdd5cf78ef4ff9b0
 }
 @keyframes blink {
   0% {
@@ -44,10 +65,21 @@
     opacity: 1;
   }
 }
+<<<<<<< HEAD
 .element {
   display: inline-block;
 }
 
+=======
+
+<<<<<<< HEAD
+
+=======
+.element {
+  display: inline-block;
+}
+>>>>>>> 3f818b33b1b0b9b1e6aaec85da4346272c1ab5c9
+>>>>>>> bd3d1914bdb155ee4d5c41eebdd5cf78ef4ff9b0
 /* ==========================================================================
 Typography
 ========================================================================== */
