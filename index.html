@@ -21,7 +21,7 @@
   <meta property="og:description" content="Coastline Market is an integrated e-commerce and inventory management platform for the fishing industry." />
 
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="icon" type="image/ico" href="favicon.ico"/>
+  <link rel="icon" type="image/ico" href="favicon.ico" />
   <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
   <link rel="stylesheet" href="css/normalize.min.css">
@@ -34,6 +34,8 @@
   <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="js/min/typed.min.js"></script>
+
 </head>
 
 <body id="top">
@@ -75,7 +77,22 @@
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
           <div class="hero-content text-center">
-            <h1>Traceability from source to sale.</h1>
+
+            <div id="typed-strings">
+              <p><h1>Seafood traceability happens on Coastline</h1></p>
+              <p><h1>Profitability happens on Coastline</h1></p>
+              <p><h1>Empowering fisheries happens on Coastline</h1></p>
+            </div>
+            <span id="typed"></span>
+
+            <script>
+              $(function() {
+                $("#typed").typed({
+                  stringsElement: $('#typed-strings')
+                });
+              });
+            </script>
+
             <p class="intro">Coastline is a mission-critical traceability, inventory management and e-commerce platform, designed exclusively for commercial fisheries.</p>
             <a href="#about" class="btn btn-fill btn-large btn-margin-right">Learn More</a>
             <a href="http://dashboard.coastlinemarket.com/" class="btn btn-fill btn-large btn-margin-right">Beta Login</a>
@@ -86,7 +103,7 @@
     <div class="down-arrow floating-arrow"><a href="#"><i class="fa fa-angle-down"></i></a></div>
   </section>
 
-<!--
+  <!--
   <section class="shop section-padding" id="shop">
     <div class="container">
       <div class="row">
@@ -272,8 +289,8 @@
               <li><a href="investor.html">Investor</a></li>
               <li><a href="terms.html">Terms of Use</a></li>
             </ul>
-            <p>Copyright © 2016 Coastline Market Inc. |
-              Made with <span class="fa fa-heart"></span> in Vancouver & Toronto</p>
+            <p>Copyright © 2016 Coastline Market Inc. | Made with
+              <span class="fa fa-heart"></span> in Vancouver & Toronto</p>
           </div>
         </div>
         <div class="social-share">
