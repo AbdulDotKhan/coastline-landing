@@ -58,27 +58,27 @@ a.btn {
   border-color: #fff;
 }
 .btn-white:hover, .btn-white:focus {
-  color: #F44336;
-  border-color: #F44336;
+  color: #00BCD4;
+  border-color: #00BCD4;
 }
 a.btn-small.btn-white {
   color: #fff;
 }
 a.btn-small.btn-white:hover {
-  color: #F44336;
+  color: #00BCD4;
 }
 .btn-fill {
   color: #fff;
-  border: solid #75858C;
+  border: solid #01579B;
   border-radius: 5px;
   display: inline-block;
   text-transform: uppercase;
-  background-color: #75858C;
+  background-color: #01579B;
 }
 .btn-fill:hover, .btn-fill:focus {
   color: #fff;
-  background-color: #53595E;
-  border-color: #53595E;
+  background-color: #0D47A1;
+  border-color: #0D47A1;
 }
 .btn-small {
   padding: 8px 20px;
@@ -99,7 +99,7 @@ section.intro {
 }
 section.features-extra {
   background: #ECEFF1;
-  padding-top: 50px;
+  padding-top: 90px;
   padding-bottom: 80px;
 }
 section.features, section.blog-intro, section.blog {
@@ -366,7 +366,7 @@ Navigation
   transition: opacity 0.5s;
 }
 section.navigation.fixed {
-  background-color: #53595E;
+  background-color: #01579B;
 }
 .nav-toggle {
   position: absolute;
@@ -432,7 +432,7 @@ Hero
 
 .hero {
   min-height: 750px;
-  background: url("../img/background.jpg") center center;
+  background: url("../img/fishnet.jpg") center center;
   background-size: cover;
   position: relative;
 }
@@ -495,7 +495,7 @@ header ul.primary-nav li a {
   letter-spacing: 1px;
 }
 header ul.primary-nav li a:hover {
-  color: #00BCD4;
+  color: #0D47A1;
 }
 header ul.primary-nav li:last-child a {
   padding-right: 0px;
@@ -507,7 +507,7 @@ header ul.member-actions li a {
   color: #fff;
 }
 header ul.member-actions li a:hover {
-  color: #00BCD4;
+  color: #0D47A1;
 }
 header .header-nav {
   display: inline-block;
@@ -539,7 +539,7 @@ Intro
 
 .intro span.icon {
   font-size: 40px;
-  color: #00BCD4;
+  color: #0D47A1;
   font-weight: bold;
 }
 .intro-icon {
@@ -662,9 +662,9 @@ img.ecom {
   width: 916px;
   height: 540px;
   background: url("../img/macbook-pro.png") no-repeat center center;
-  top: 64px;
+  top: 30px;
   z-index: 4;
-  left: 50%;
+  left: 55%;
 }
 
 /* ==========================================================================
