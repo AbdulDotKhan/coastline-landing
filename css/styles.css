@@ -1,39 +1,53 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,100,300,300italic,400italic,700);
-
-
 .typed {
   font-size: 50px;
 }
 .desktop-hidden {
   display: none;
 }
-
-
-.typed-cursor{
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0% {
     opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-
 .element {
   display: inline-block;
 }
+
 /* ==========================================================================
 Typography
 ========================================================================== */
@@ -165,7 +179,7 @@ div.modal-content {
   overflow-x: hidden;
 }
 section.careers {
-  background-color: #00ACC1;
+  background-color: #B0BEC5;
 }
 
 /* ==========================================================================
@@ -529,7 +543,7 @@ header ul.primary-nav li a {
   letter-spacing: 1px;
 }
 header ul.primary-nav li a:hover {
-  color: #0D47A1;
+  color: #00BCD4;
 }
 header ul.primary-nav li:last-child a {
   padding-right: 0px;
@@ -541,7 +555,7 @@ header ul.member-actions li a {
   color: #fff;
 }
 header ul.member-actions li a:hover {
-  color: #0D47A1;
+  color: #00BCD4;
 }
 header .header-nav {
   display: inline-block;
@@ -680,6 +694,8 @@ img.ecom {
   border-radius: 2px;
 }
 */
+
+
 /* ==========================================================================
 .features-extra
 ========================================================================== */
@@ -883,7 +899,7 @@ Sign up form
   position: relative;
 }
 .sign-up .signup-form .form-input-group i {
-  color: #00BCD4;
+  color: #01579B;
   font-size: 14px;
 }
 .sign-up .signup-form .form-input-group i:after {
