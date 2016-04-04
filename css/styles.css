@@ -165,7 +165,11 @@ div.modal-content {
   overflow-x: hidden;
 }
 section.careers {
-  background-color: #00ACC1;
+  background-color: #B0BEC5;
+}
+
+#videoModal {
+  
 }
 
 /* ==========================================================================
@@ -529,7 +533,7 @@ header ul.primary-nav li a {
   letter-spacing: 1px;
 }
 header ul.primary-nav li a:hover {
-  color: #0D47A1;
+  color: #00BCD4;
 }
 header ul.primary-nav li:last-child a {
   padding-right: 0px;
@@ -541,7 +545,7 @@ header ul.member-actions li a {
   color: #fff;
 }
 header ul.member-actions li a:hover {
-  color: #0D47A1;
+  color: #00BCD4;
 }
 header .header-nav {
   display: inline-block;
@@ -566,6 +570,43 @@ header .member-actions {
           transform: translateX(-50%); }
 */
 
+
+/* ==========================================================================
+Intro
+========================================================================== */
+
+
+.video span.icon {
+  font-size: 40px;
+  color: #0D47A1;
+  font-weight: bold;
+}
+.video-icon {
+  display: inline-block;
+  vertical-align: top;
+  padding: 6px 0 0 0;
+  margin-right: 20px;
+  width: 40px;
+}
+.video-content {
+  display: inline-block;
+  width: 80%;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 2px solid #939393;
+  width: 90%;
+}
+
+iframe {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+  max-width: 100%;
+}
 
 /* ==========================================================================
 Intro
@@ -883,7 +924,7 @@ Sign up form
   position: relative;
 }
 .sign-up .signup-form .form-input-group i {
-  color: #00BCD4;
+  color: #01579B;
   font-size: 14px;
 }
 .sign-up .signup-form .form-input-group i:after {
