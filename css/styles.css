@@ -83,6 +83,7 @@ a.btn {
   color: #fff;
   border-color: #00BCD4;
   background-color: #00BCD4;
+  outline:0;
 }
 .btn-white {
   font-size: 13px;
@@ -94,6 +95,7 @@ a.btn {
 .btn-white:hover, .btn-white:focus {
   color: #00BCD4;
   border-color: #00BCD4;
+  outline:0;
 }
 a.btn-small.btn-white {
   color: #fff;
@@ -113,6 +115,7 @@ a.btn-small.btn-white:hover {
   color: #fff;
   background-color: #0D47A1;
   border-color: #0D47A1;
+  outline:0;
 }
 .btn-small {
   padding: 8px 20px;
@@ -169,7 +172,7 @@ section.careers {
 }
 
 #videoModal {
-  
+
 }
 
 /* ==========================================================================
@@ -606,6 +609,13 @@ iframe {
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
   max-width: 100%;
+  max-height: 490px;
+}
+
+@media only screen and (max-width: 600px) {
+  iframe {
+    max-height: 250px;
+  }
 }
 
 /* ==========================================================================
@@ -1103,9 +1113,11 @@ footer .social-share a.twitter-share {
 }
 footer .social-share a.twitter-share:hover, footer .social-share a.twitter-share:focus {
   background-color: #1590BF;
+  outline:0;
 }
 footer .social-share a.facebook-share:hover, footer .social-share a.facebook-share:focus {
   background-color: #324C85;
+  outline:0;
 }
 footer .social-share a.facebook-share {
   height: 60px;
@@ -1120,6 +1132,7 @@ footer .social-share a.facebook-share {
 }
 footer .social-share a.linkedin-share:hover, footer .social-share a.linkedin-share:focus {
   background-color: #0077B5;
+  outline:0;
 }
 footer .social-share a.linkedin-share {
   height: 60px;
