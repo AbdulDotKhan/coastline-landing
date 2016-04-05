@@ -967,6 +967,25 @@ Sign up form
   transform: translateY(-50%);
   margin-left: 20px;
 }
+
+.sign-up .signup-form .form-input-group i.fa-key {
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 20px;
+}
+.sign-up .signup-form .form-input-group i.fa-key {
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 20px;
+}
 .sign-up .signup-form .form-input-group i.fa-linkedin {
   font-size: 18px;
   position: absolute;
@@ -989,21 +1008,26 @@ Sign up form
   padding-left: 68px;
   width: 100%;
   height: 100%;
-  border-radius: 6px;
-  border: none;
+  border-radius: 2px;
+  border: 1px solid #607D8B;
 }
 .sign-up .signup-form .form-input-group input::-webkit-input-placeholder {
-  color: #BCC1C3;
+  color: #607D8B;
 }
 .sign-up .signup-form .form-input-group input:-moz-placeholder {
-  color: #BCC1C3;
+  color: #607D8B;
 }
 .sign-up .signup-form .form-input-group input::-moz-placeholder {
-  color: #BCC1C3;
+  color: #607D8B;
 }
 .sign-up .signup-form .form-input-group input:-ms-input-placeholder {
-  color: #BCC1C3;
+  color: #607D8B;
 }
+
+.password-reset-input {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 
 /* ==========================================================================
 To top
