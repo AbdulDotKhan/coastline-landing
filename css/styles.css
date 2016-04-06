@@ -1,9 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,100,300,300italic,400italic,700);
 
 
-.typed {
-  font-size: 50px;
-}
 .desktop-hidden {
   display: none;
 }
@@ -67,6 +64,11 @@ h5 {
   text-transform: uppercase;
   font-weight: 500;
 }
+
+img {
+  max-width: 100%;
+}
+
 .btn {
   font-size: 13px;
   border: solid 3px;
@@ -171,9 +173,6 @@ section.careers {
   background-color: #B0BEC5;
 }
 
-#videoModal {
-
-}
 
 /* ==========================================================================
 Global Styles
@@ -1025,7 +1024,11 @@ Sign up form
 }
 
 .password-reset-input {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #d4ece6;
+}
+.password-success {
+  background-color: #d4ece6;
+  border-radius: 4px;
 }
 
 
