@@ -70,7 +70,7 @@ h5 {
 .btn {
   font-size: 13px;
   border: solid 3px;
-  border-radius: 5px;
+  border-radius: 2px;
   display: inline-block;
   text-transform: uppercase;
   border-color: #fff
@@ -88,7 +88,7 @@ a.btn {
 .btn-white {
   font-size: 13px;
   border: solid 2px;
-  border-radius: 5px;
+  border-radius: 2px;
   display: inline-block;
   border-color: #fff;
 }
@@ -97,6 +97,25 @@ a.btn {
   border-color: #00BCD4;
   outline:0;
 }
+
+.btn-dark {
+  font-size: 13px;
+  border: solid 2px;
+  border-radius: 2px;
+  display: inline-block;
+  border-color: #3D4351;
+  background-color: #fff;
+}
+a.btn-dark {
+  color: #3D4351;
+}
+.btn-dark:hover, .btn-dark:focus {
+  color: #fff;
+  border-color: #01579B;
+  background-color: #01579B;
+  outline:0;
+}
+
 a.btn-small.btn-white {
   color: #fff;
 }
@@ -106,7 +125,7 @@ a.btn-small.btn-white:hover {
 .btn-fill {
   color: #fff;
   border: solid #01579B;
-  border-radius: 5px;
+  border-radius: 2px;
   display: inline-block;
   text-transform: uppercase;
   background-color: #01579B;
@@ -150,7 +169,7 @@ h1.investor {
   letter-spacing: 1px;
 }
 img.screenshot {
-  border-radius: 5px;
+  border-radius: 2px;
   width: 360px;
   height: 220px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
@@ -158,7 +177,7 @@ img.screenshot {
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
 }
 img.modalImg {
-  border-radius: 5px;
+  border-radius: 2px;
   max-width: 100%;
   box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
@@ -259,7 +278,7 @@ ul li {
   text-decoration: none;
   text-transform: capitalize;
   background-color: #000;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 /* ==========================================================================
@@ -608,7 +627,7 @@ hr {
 }
 
 iframe {
-  border-radius: 5px;
+  border-radius: 2px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
@@ -924,7 +943,7 @@ Sign up form
 
 .sign-up .signup-form .sign-up-btn {
   padding: 15px 0;
-  border-radius: 3px;
+  border-radius: 2px;
   width: 80%;
   font-size: 13px;
 }
@@ -932,7 +951,7 @@ Sign up form
   width: 80%;
   height: 55px;
   margin: 0 auto 10px;
-  border-radius: 5px;
+  border-radius: 2px;
   border: solid 1px #E6E9EA;
   text-align: left;
   position: relative;
@@ -945,7 +964,7 @@ Sign up form
   content: "";
   height: 30px;
   width: 1px;
-  border-right: solid 1px #E6E9EA;
+  border-right: solid 1px #3D4351;
   position: absolute;
   top: 50%;
   left: 30px;
@@ -993,20 +1012,25 @@ Sign up form
   padding-left: 68px;
   width: 100%;
   height: 100%;
-  border-radius: 6px;
-  border: none;
+  border-radius: 2px;
+  outline:0;
+  /*border: solid 2px #3D4351;*/
+  font-size: 16px;
+  background-color: #ECEFF1;
+  border-style: none;
+  color: #3D4351;
 }
 .sign-up .signup-form .form-input-group input::-webkit-input-placeholder {
-  color: #BCC1C3;
+  color: #727274;
 }
 .sign-up .signup-form .form-input-group input:-moz-placeholder {
-  color: #BCC1C3;
+  color: #727274;
 }
 .sign-up .signup-form .form-input-group input::-moz-placeholder {
-  color: #BCC1C3;
+  color: #727274;
 }
 .sign-up .signup-form .form-input-group input:-ms-input-placeholder {
-  color: #BCC1C3;
+  color: #727274;
 }
 
 /* ==========================================================================
@@ -1108,7 +1132,7 @@ footer .social-share a.twitter-share {
   height: 60px;
   width: 60px;
   background-color: #1AB4EF;
-  border-radius: 5px;
+  border-radius: 2px;
   font-size: 22px;
   display: inline-block;
   text-align: center;
@@ -1127,7 +1151,7 @@ footer .social-share a.facebook-share {
   height: 60px;
   width: 60px;
   background-color: #3B5898;
-  border-radius: 5px;
+  border-radius: 2px;
   font-size: 22px;
   display: inline-block;
   text-align: center;
