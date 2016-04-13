@@ -954,6 +954,7 @@ Sign up form
   border: solid 1px #E6E9EA;
   text-align: left;
   position: relative;
+  outline: hidden;
 }
 .sign-up .signup-form .form-input-group i {
   color: #01579B;
@@ -1035,15 +1036,22 @@ Sign up form
 }
 .sign-up .signup-form .form-input-group input::-webkit-input-placeholder {
   color: #607D8B;
+  outline: 0;
 }
 .sign-up .signup-form .form-input-group input:-moz-placeholder {
   color: #607D8B;
+  outline: 0;
+
 }
 .sign-up .signup-form .form-input-group input::-moz-placeholder {
   color: #607D8B;
+  outline: 0;
+
 }
 .sign-up .signup-form .form-input-group input:-ms-input-placeholder {
   color: #607D8B;
+  outline: 0;
+
 }
 
 .password-reset-input {
