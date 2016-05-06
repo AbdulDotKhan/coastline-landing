@@ -766,10 +766,10 @@ img.ecom {
 }
 .features-extra .macbook-wrap {
   position: absolute;
-  width: 916px;
-  height: 540px;
+  width: 900px;
+  height: 640px;
   background: url("../img/macbook-pro.png") no-repeat center center;
-  top: 30px;
+  top: 15px;
   z-index: 4;
   left: 55%;
 }
