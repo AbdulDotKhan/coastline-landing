@@ -34,6 +34,52 @@
   <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <!-- start Mixpanel -->
+  <script type="text/javascript">
+    (function(e, b) {
+      if (!b.__SV) {
+        var a, f, i, g;
+        window.mixpanel = b;
+        b._i = [];
+        b.init = function(a, e, d) {
+          function f(b, h) {
+            var a = h.split(".");
+            2 == a.length && (b = b[a[0]], h = a[1]);
+            b[h] = function() {
+              b.push([h].concat(Array.prototype.slice.call(arguments, 0)))
+            }
+          }
+          var c = b;
+          "undefined" !== typeof d ? c = b[d] = [] : d = "mixpanel";
+          c.people = c.people || [];
+          c.toString = function(b) {
+            var a = "mixpanel";
+            "mixpanel" !== d && (a += "." + d);
+            b || (a += " (stub)");
+            return a
+          };
+          c.people.toString = function() {
+            return c.toString(1) + ".people (stub)"
+          };
+          i =
+            "disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user"
+            .split(" ");
+          for (g = 0; g < i.length; g++) f(c, i[g]);
+          b._i.push([a, e, d])
+        };
+        b.__SV = 1.2;
+        a = e.createElement("script");
+        a.type = "text/javascript";
+        a.async = !0;
+        a.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ? MIXPANEL_CUSTOM_LIB_URL : "file:" === e.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" :
+          "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+        f = e.getElementsByTagName("script")[0];
+        f.parentNode.insertBefore(a, f)
+      }
+    })(document, window.mixpanel || []);
+    mixpanel.init("79c0ad0b81da58233245b39966045891");
+  </script>
+  <!-- end Mixpanel -->
 </head>
 
 <body id="top">
@@ -55,12 +101,12 @@
               <ul class="primary-nav">
                 <li><a href="#about" class="navlink">About</a></li>
                 <li><a href="#features" class="navlink">Features</a></li>
-                <li><a href="#beta" class="navlink">Free Beta</a></li>
+                <!-- <li><a href="#beta" class="navlink">Free Beta</a></li> -->
                 <li><a href="https://blog.coastlinemarket.com/" class="navlink">Blog</a></li>
               </ul>
               <ul class="member-actions">
                 <li><a href="#beta" class="login">Contact</a></li>
-                <li><a href="http://dashboard.coastlinemarket.com/" class="btn-white btn-small">BETA LOGIN</a></li>
+                <li><a href="http://dashboard.coastlinemarket.com/" class="btn-white btn-small">USER LOGIN</a></li>
               </ul>
             </nav>
           </div>
@@ -73,35 +119,14 @@
       </header>
     </section>
 
-    <!--
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header page-scroll">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand page-scroll" href="#page-top">
-            <img src="img/coastline-logo.png" alt="coastline  logo">
-          </a>
-        </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about" class="btn-trans btn-small">About</a></li>
-            <li><a href="#features" class="btn-trans btn-small">Features</a></li>
-            <li><a href="#beta" class="btn-trans btn-small">Beta</a></li>
-            <li><a href="https://blog.coastlinemarket.com/" class="btn-trans btn-small">Blog</a></li>
-            <li><a href="#beta" class="btn-trans btn-small">Contact</a></li>
-            <li><a href="#beta" class="btn-white btn-small">Beta Login</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav> -->
-
-
+    <script type="text/javascript">
+      mixpanel.track("Interact with post", {
+        "Sponsored": true,
+        "Action": "Comment",
+        "Filter": "Lo-Fi"
+      });
+    </script>
 
     <div class="container">
       <div class="row">
@@ -112,7 +137,7 @@
             <h1 class="desktop-hidden">Traceability from source to sale.</h1>
             <p class="intro">Coastline is a mission-critical inventory management and traceability platform, designed exclusively for commercial fisheries.</p>
             <a href="javascript:(0)" data-toggle="modal" data-target="#videoModal" class="btn btn-fill btn-large btn-margin-right smooth-scroll"><i class="fa fa-play"></i> View Video Demo</a>
-            <a href="http://dashboard.coastlinemarket.com/" class="btn btn-fill btn-large btn-margin-right">Beta Login</a>
+            <a href="http://dashboard.coastlinemarket.com/" class="btn btn-fill btn-large btn-margin-right">User Login</a>
           </div>
         </div>
       </div>
@@ -258,7 +283,7 @@
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
           <h3><b>Help shape the future of the fishing industry.</b></h3>
-          <p><b>Request a <u>free</u> beta copy today</b></p>
+          <p><b>Interested? Request more info today</b></p>
           <form class="signup-form" action="//formspree.io/hello@coastlinemarket.com" method="POST" role="form">
             <div class="form-input-group">
               <i class="fa fa-group"></i>
@@ -277,7 +302,7 @@
             <!-- to avoid spam/scrapers -->
             <input type="text" name="_gotcha" style="display:none" />
 
-            <button type="submit" class="btn-fill sign-up-btn" value="send">Sign up for free</button>
+            <button type="submit" class="btn-fill sign-up-btn" value="send">Submit</button>
           </form>
         </div>
       </div>
@@ -300,7 +325,7 @@
           <div class="footer-links">
             <ul class="footer-group">
               <li><a href="careers.html">Careers</a></li>
-              <li><a href="investor.html">Investor</a></li>
+              <!-- <li><a href="investor.html">Investor</a></li> -->
               <li><a href="terms.html">Terms of Use</a></li>
             </ul>
             <p><b>Copyright © 2016 Coastline Market Inc. | Made with
