@@ -189,7 +189,9 @@ div.modal-content {
   overflow-x: hidden;
 }
 section.careers {
-  background-color: #B0BEC5;
+  /*background-color: #000;*/
+  background: url("../img/newphoto2.png") center center;
+  /*background:url("img/newphoto3.png") center;*/
 }
 
 
