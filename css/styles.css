@@ -198,6 +198,11 @@ section.pricing {
   background: url("../img/dock.jpg") center center;
   /*background:url("img/newphoto1.png") center;*/
 }
+div.paneheader {
+  /*background-color: #000;*/
+  background: url("../img/investor.jpg") center center;
+  /*background:url("img/newphoto1.png") center;*/
+}
 
 
 /* ==========================================================================
