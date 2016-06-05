@@ -83,8 +83,8 @@ a.btn {
 }
 .btn:hover, .btn:focus {
   color: #fff;
-  border-color: #00BCD4;
-  background-color: #00BCD4;
+  border-color: #BDBDBD;
+  background-color: #BDBDBD;
   outline:0;
 }
 .btn-white {
@@ -95,8 +95,8 @@ a.btn {
   border-color: #fff;
 }
 .btn-white:hover, .btn-white:focus {
-  color: #00BCD4;
-  border-color: #00BCD4;
+  color: #BDBDBD;
+  border-color: #BDBDBD;
   outline:0;
 }
 
@@ -113,8 +113,8 @@ a.btn-dark {
 }
 .btn-dark:hover, .btn-dark:focus {
   color: #fff;
-  border-color: #01579B;
-  background-color: #01579B;
+  border-color: #1E2C40;
+  background-color: #1E2C40;
   outline:0;
 }
 
@@ -122,20 +122,20 @@ a.btn-small.btn-white {
   color: #fff;
 }
 a.btn-small.btn-white:hover {
-  color: #00BCD4;
+  color: #FFF;
 }
 .btn-fill {
   color: #fff;
-  border: solid #01579B;
+  border: solid #1E2C40;
   border-radius: 2px;
   display: inline-block;
   text-transform: uppercase;
-  background-color: #01579B;
+  background-color: #1E2C40;
 }
 .btn-fill:hover, .btn-fill:focus {
   color: #fff;
-  background-color: #0D47A1;
-  border-color: #0D47A1;
+  background-color: #101e32;
+  border-color: #101e32;
   outline:0;
 }
 .btn-small {
@@ -166,6 +166,11 @@ section.features, section.blog-intro, section.blog {
 section.investor {
   background-color: #B0BEC5;
 }
+h1.typed {
+  font-size: 45px;
+}
+
+
 h1.investor {
   color: #3D4351;
   letter-spacing: 1px;
@@ -229,7 +234,7 @@ Global Styles
   margin: 0;
 }
 a {
-  color: #00BCD4;
+  color: #FFF;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
   -webkit-transition-duration: 200ms;
@@ -238,13 +243,13 @@ a {
   transition-property: color, border-color, background-color;
 }
 a:hover, a:focus {
-  color: #00BCD4;
+  color: #FFF;
   text-decoration: none;
 }
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  color: #00BCD4;
+  color: #FFF;
   -webkit-text-size-adjust: 100%;
 }
 ul, ol {
@@ -456,7 +461,7 @@ Navigation
   transition: opacity 0.5s;
 }
 section.navigation.fixed {
-  background-color: #607D8B;
+  background-color: #1E2C40;
 }
 .nav-toggle {
   position: absolute;
@@ -542,7 +547,6 @@ Hero
 .navigation {
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
-  /*background-color: #607d8b;*/
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -589,7 +593,7 @@ header ul.primary-nav li a {
   letter-spacing: 1px;
 }
 header ul.primary-nav li a:hover {
-  color: #00BCD4;
+  color: #FFF;
 }
 header ul.primary-nav li:last-child a {
   padding-right: 0px;
@@ -601,7 +605,7 @@ header ul.member-actions li a {
   color: #fff;
 }
 header ul.member-actions li a:hover {
-  color: #00BCD4;
+  color: #FFF;
 }
 header .header-nav {
   display: inline-block;
@@ -677,7 +681,7 @@ Intro
 
 .intro span.icon {
   font-size: 40px;
-  color: #0D47A1;
+  color: #1E2C40;
   font-weight: bold;
 }
 .intro-icon {
@@ -715,7 +719,7 @@ Features-stack
 }
 .features span.icon {
   font-size: 35px;
-  color: #00BCD4;
+  color: #BDBDBD;
   font-weight: bold;
 }
 .features .feature-icon {
@@ -997,7 +1001,7 @@ Sign up form
   outline: hidden;
 }
 .sign-up .signup-form .form-input-group i {
-  color: #01579B;
+  color: #1E2C40;
   font-size: 14px;
 }
 .sign-up .signup-form .form-input-group i:after {
@@ -1189,7 +1193,7 @@ footer a {
   letter-spacing: 1px;
 }
 footer a:hover {
-  color: #00BCD4;
+  color: #FFF;
 }
 footer ul.footer-group {
   border-top: solid 1px #fff;
@@ -1205,7 +1209,7 @@ footer ul.footer-group li a {
   text-transform: uppercase;
 }
 footer ul.footer-group li a:hover {
-  color: #00BCD4;
+  color: #FFF;
 }
 footer ul.footer-group li {
   margin-right: 30px;
@@ -1263,7 +1267,7 @@ footer .social-share a.facebook-share {
   margin-left: 6px;
 }
 footer .social-share a.linkedin-share:hover, footer .social-share a.linkedin-share:focus {
-  background-color: #0077B5;
+  background-color: #1590BF;
   outline:0;
 }
 footer .social-share a.linkedin-share {
