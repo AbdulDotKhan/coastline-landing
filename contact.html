@@ -10,7 +10,7 @@
   <meta charset="utf-8">
   <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Pricing | Coastline</title>
+  <title>Contact Us | Coastline</title>
   <meta name="description" content="Coastline provides affordable pricing for growing enterprises in the fishing industry.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Coastline Market">
@@ -62,81 +62,83 @@
         </div>
       </header>
     </section>
-  <section class="section-padding text-center pricing" id="about">
+  <section class="section-padding text-center contact" id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div><br><br></div>
-          <h1 class="investor text-center">Product Pricing</h1>
-          <h3 class="text-center"> Coastline is currently expanding its product set. </h3>
+          <h1 class="investor text-center">Contact Us</h1>
+          <h3 class="text-center">We're here to help.</h3>
           <hr class="thin">
 
 
-    <table class="table table-hover text-center">
-      <thead>
-        <tr>
-          <th>Features</th>
-          <th class="text-center">Basic Coastline<br><span style="font-size: 25px; font-weight: 300;">$50.00<sub>/month</sub></span></th>
-          <th class="text-center">Coastline<br><span style="font-size: 25px; font-weight: 300;">Coming Soon</span></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Customer Account Management</th>
-          <td><i class="fa fa-check check"></i></td>
-          <td><i class="fa fa-check check"></i></td>
-        </tr>
-        <tr>
-          <th scope="row">Supply Chain Visualization</th>
-          <td><i class="fa fa-check check"></i></td>
-          <td><i class="fa fa-check check"></i></td>
-        </tr>
-        <tr>
-          <th scope="row">Invoice Creation</th>
-          <td><i class="fa fa-check check"></i></td>
-          <td><i class="fa fa-check check"></i></td>
-        </tr> <tr>
-          <th scope="row">E-commerce Store</th>
-          <td><i class="fa fa-check check"></i></td>
-          <td><i class="fa fa-check check"></i></td>
-        </tr>  <tr>
-          <th scope="row">Order Tracking</th>
-          <td><i class="fa fa-check check"></i></td>
-          <td><i class="fa fa-check check"></i></td>
-        </tr>  <tr>
-          <th scope="row">Accounts Recievable Monitoring</th>
-          <td><i class="fa fa-check check"></i></td>
-          <td><i class="fa fa-check check"></i></td>
-        </tr>  <tr>
-          <th scope="row">HACCP Traceability Standards</th>
-          <td></td>
-          <td><i class="fa fa-check check"></i></td>
-        </tr>  <tr>
-          <th scope="row">Supply Chain Stage Verification (Batch Data Integrity)</th>
-          <td></td>
-          <td><i class="fa fa-check check"></i></td>
-        </tr>  <tr>
-        <th scope="row">Quickbooks Accounting Software Integration</th>
-          <td></td>
-          <td><i class="fa fa-check check"></i></td>
-        </tr>  <tr>
-        <th scope="row">Sales and Inventory Analytics</th>
-            <td></td>
-            <td><i class="fa fa-check check"></i></td>
-        </tr>
-      </tbody>
-    </table>
-    <br></br>
-<hr class="thin">
+          <title>Bootstrap 3 with Google Map</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-          <h3 class="text-center">Questions? Please direct any inquiries to <a href="mailto:hello@coastlinemarket.com">hello@coastlinemarket.com</a></h3>
-          <br>
-          <h4 class="text-center">Last updated June 1st, 2016.</h4>
+          <!-- Bootstrap core CSS -->
+          <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.css" rel="stylesheet" media="screen">
 
+          <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+          <!--[if lt IE 9]>
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
+          <![endif]-->
+
+          <style>
+            #map-container { height: 300px }
+          </style>
+      </head>
+      <br>
+      <body>
+          <div id="map-container" class="col-md-6"></div>
+
+          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+          <!-- Include all compiled plugins (below), or include individual files as needed -->
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
+          <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+          <script>
+
+            function init_map() {
+      		var var_location = new google.maps.LatLng(43.669160, -79.392623);
+
+              var var_mapoptions = {
+                center: var_location,
+                zoom: 14
+              };
+
+      		var var_marker = new google.maps.Marker({
+      			position: var_location,
+      			map: var_map,
+      			title:"Coastline Headquarters"});
+
+              var var_map = new google.maps.Map(document.getElementById("map-container"),
+                  var_mapoptions);
+
+      		var_marker.setMap(var_map);
+
+            }
+
+            google.maps.event.addDomListener(window, 'load', init_map);
+
+          </script>
+      </body>
+      </html>
+      <p class="text-center"><b>Our Address:</b>
+        <br>130 Bloor Street West, Suite 702
+      <br>Toronto, Ontario, M5S 1N5</p>
+      <br>
+      <p class="text-center"><b>Contact Information</b>
+        <br>Robert Kirstiuk, Market Lead: robert@coastlinemarket.com</br>
         </div>
       </div>
       </div>
     </div>
+    <br></br>
+    <hr class="thin">
+        <br>
+        <h4 class="text-center"><font color="white"> Last updated June 1st, 2016.</font></h4>
+      <br>
   </section>
 
   <section class="to-top">

@@ -203,6 +203,11 @@ div.paneheader {
   background: url("../img/investor.jpg") center center;
   /*background:url("img/newphoto1.png") center;*/
 }
+section.contact {
+  /*background-color: #000;*/
+  background: url("../img/newphoto11.jpeg") center center;
+  /*background:url("img/newphoto1.png") center;*/
+}
 
 /* ==========================================================================
 Global Styles
